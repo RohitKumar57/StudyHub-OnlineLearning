@@ -1,0 +1,127 @@
+<div class="container-fluid mt-5 about-style">
+  <div class="row">
+    <div class="col-md-10 col-12 mx-auto">
+      <h1 class="text-center main-heading">Our Blogs</h1>
+      <p class="text-center sub-heading">Expand Your Horizons with Us</p>
+      {{!-- Blog 1 --}}
+      <div class="row blog-shadow">
+        {{!-- Left Side --}}
+        <div class="col-md-6 col-12 hero-text ">
+          <figure>
+            <img src="images/blog_1.png" alt="Herosection image not found" class="img-resp">
+          </figure>
+        </div>
+        {{!-- Right Side --}}
+        <div class="col-md-6 col-12 hero-text d-flex justify-content-center align-items-start flex-column">
+          <h1>Empowering Digital Innovation</h1>
+          <p>Welcome to <span class="bold-style">StudyHub</span>, Your Premier Destination for Excellence. We're
+            committed to delivering exceptional work, ensuring reliability, top-notch service, and unmatched creativity.
+          </p>
+          <p id="moreInfo1" style="display: none;">At StudyHub, we believe that innovation is the cornerstone of
+            progress. Our cutting-edge courses and interactive learning approach empower students to embrace digital
+            innovation with confidence. Whether you're a beginner or an advanced learner, our expert instructors will
+            guide you through the exciting world of technology, ensuring you're prepared to lead in the digital era.</p>
+          <a href="javascript:void(0)"><button class="btn-style" onclick="toggleMoreInfo('moreInfo1')">Discover
+              More</button></a>
+        </div>
+
+
+      </div>
+      {{!-- Blog 1 Ends --}}
+      {{!-- Blog 2 --}}
+      <div class="row blog-shadow">
+        {{!-- Left Side --}}
+
+
+        <div class="col-md-6 col-12 hero-text d-flex justify-content-center align-items-start flex-column">
+          <h1>Uplifting Lifelong Learning</h1>
+          <p>Welcome to <span class="bold-style">StudyHub</span>, where learning knows no bounds. We're dedicated to
+            fostering a culture of lifelong learning, enabling you to explore new subjects, develop new skills, and
+            enhance your knowledge at any stage of life.</p>
+          <p id="moreInfo2" style="display: none;">Our diverse range of courses spans from foundational concepts to
+            advanced topics, ensuring that learners of all levels find the right fit. Our expert educators and
+            interactive resources create an environment where curiosity is nurtured and growth is constant. Embark on a
+            journey of continuous self-improvement with StudyHub!</p>
+          <a href="javascript:void(0)"><button class="btn-style" onclick="toggleMoreInfo('moreInfo2')">Discover
+              More</button></a>
+        </div>
+
+
+        {{!-- Right Side --}}
+        <div class="col-md-6 col-12 hero-text ">
+          <figure>
+            <img src="images/blog_2.svg" alt="Herosection image not found" class="img-resp">
+          </figure>
+        </div>
+
+      </div>
+      {{!-- Blog 2 Ends --}}
+      {{!-- Blog 3 --}}
+      <div class="row blog-shadow">
+        {{!-- Left Side --}}
+        <div class="col-md-6 col-12 hero-text ">
+          <figure>
+            <img src="images/blog_3.png" alt="Herosection image not found" class="img-resp">
+          </figure>
+        </div>
+        {{!-- Right Side --}}
+        <div class="col-md-6 col-12 hero-text d-flex justify-content-center align-items-start flex-column">
+          <h1>Personalized Learning Experience</h1>
+          <p>Welcome to <span class="bold-style">StudyHub</span>, where education meets individuality. Our commitment to
+            a personalized learning experience means that each student's journey is unique. With tailored resources,
+            flexible study plans, and one-on-one guidance, we ensure that your learning path aligns with your goals.</p>
+          <p id="moreInfo3" style="display: none;">At StudyHub, we understand that no two learners are alike. Our
+            platform adapts to your learning pace and style, enabling you to grasp concepts thoroughly and master skills
+            effectively. Join us in shaping an educational experience that's truly your own!</p>
+          <a href="javascript:void(0)"><button class="btn-style" onclick="toggleMoreInfo('moreInfo3')">Discover
+              More</button></a>
+        </div>
+
+
+      </div>
+      {{!-- Blog 3 Ends --}}
+
+      {{!-- Blog 4 --}}
+      <div class="row blog-shadow">
+        {{!-- Left Side --}}
+
+
+        <div class="col-md-6 col-12 hero-text d-flex justify-content-center align-items-start flex-column">
+          <h1>Cutting-Edge Curriculum</h1>
+          <p>Welcome to <span class="bold-style">StudyHub</span>, your gateway to modern education. Our curriculum is
+            carefully designed to equip you with the latest knowledge and skills that are in demand across industries.
+            Whether it's programming languages, data analysis, or creative arts, we've got you covered.</p>
+          <p id="moreInfo4" style="display: none;">StudyHub's expert-curated content is regularly updated to reflect the
+            evolving trends and advancements in various fields. Our commitment to offering the most relevant and
+            up-to-date subjects ensures that you're prepared to thrive in a rapidly changing world.</p>
+          <a href="javascript:void(0)"><button class="btn-style" onclick="toggleMoreInfo('moreInfo4')">Discover
+              More</button></a>
+        </div>
+
+        {{!-- Right Side --}}
+        <div class="col-md-6 col-12 hero-text ">
+          <figure>
+            <img src="images/blog_4.svg" alt="Herosection image not found" class="img-resp">
+          </figure>
+        </div>
+
+      </div>
+      {{!-- Blog 4 Ends --}}
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<script>
+  function toggleMoreInfo(sectionId) {
+    var section = document.getElementById(sectionId);
+    if (section.style.display === "none") {
+      section.style.display = "block";
+    } else {
+      section.style.display = "none";
+    }
+  }
+</script>
